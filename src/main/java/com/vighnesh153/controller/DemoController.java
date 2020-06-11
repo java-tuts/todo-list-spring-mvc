@@ -14,11 +14,11 @@ public class DemoController {
         return "hello";
     }
 
-    // The following returns the view: PREFIX + "welcome" + SUFFIX
-    // PREFIX and SUFFIX are set in WebConfig class.
     // http://localhost:8080/todo-list/welcome
     @GetMapping("welcome")
     public String welcome() {
+        // The following returns the view: PREFIX + "welcome" + SUFFIX
+        // PREFIX and SUFFIX are set in WebConfig class.
         return "welcome";
     }
 }

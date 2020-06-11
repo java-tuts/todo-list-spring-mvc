@@ -13,4 +13,12 @@ public class DemoController {
     public String hello() {
         return "hello";
     }
+
+    // The following returns the view: PREFIX + "welcome" + SUFFIX
+    // PREFIX and SUFFIX are set in WebConfig class.
+    // http://localhost:8080/todo-list/welcome
+    @GetMapping("welcome")
+    public String welcome() {
+        return "welcome";
+    }
 }

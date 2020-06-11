@@ -7,6 +7,7 @@
     <title>Welcome</title>
 </head>
 <body>
-    <h1>This is the welcome page.</h1>
+    <h1>Hello ${user}.</h1>
+    <h2>${welcomeMessage}</h2>
 </body>
 </html>
